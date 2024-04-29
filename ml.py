@@ -37,6 +37,6 @@ print(f"Coefficient (Slope): {model.coef_[0]}")
 print(f"Intercept: {model.intercept_}")
 
 # Example usage of the prediction function
-years_exp_input = 7  # Example: 7 years of experience
+years_exp_input = 15  # Example: 7 years of experience
 predicted_salary = predict_salary(years_exp_input)
 print(f"Predicted salary for {years_exp_input} years of experience: ${predicted_salary:.2f}")
